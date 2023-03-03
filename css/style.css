@@ -1,0 +1,143 @@
+nav{
+  text-align: center;
+  font-size: x-large;
+  padding: 10px;
+  display: block;
+  border: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: salmon;
+  background-color: aqua;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/ocean-water_0UZIYQOYTY.jpg);
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-size: xxx-large;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header img{
+  flex-direction: row;
+  justify-content: center;
+  width: 20%;
+  height: auto;
+}
+
+.locations-container{
+  text-align: center;
+  padding: 10px;
+  border: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color:red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  color: rebeccapurple;
+  background-color: aqua;
+}
+
+.hours-container{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  padding: 10px;
+  border: 5px;
+  border-style: solid;
+  border-color: seagreen;
+  color: blueviolet;
+}
+
+.locations-container h2{
+  padding: 2px;
+}
+
+.cities-container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#section2{
+  display: flex;
+  justify-content: space-around;
+}
+#section2 img{
+  width: 20%;
+  height: auto;
+  object-fit: scale-down;
+  object-position: center;
+}
+
+.p-section{
+  text-align: center;
+  font-size: x-large;
+  color: rgb(148, 29, 16);
+  background-color: azure;
+
+}
+
+.merchandise-container{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sold-p{
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: olivedrab;
+  background-color: black;
+}
+
+
+
+#city{
+  background-color: beige;
+  text-align: center;
+  padding: 15px;
+  border:5px;
+  border-style: solid;
+  border-color: red;
+}
+
+article{
+  background-color: aqua;
+  text-align: center;
+}
+table{
+  text-align: center;
+  background-color: azure;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 4px;
+  border-style: solid;
+  border-color: blue;
+}
+
+td {
+  padding: 2px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+th{
+  padding: 2px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+footer{
+  text-align: center;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
