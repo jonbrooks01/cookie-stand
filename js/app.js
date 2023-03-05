@@ -10,6 +10,8 @@ sectionElem.appendChild(articleElem);
 let tableElem = document.createElement('table');
 articleElem.appendChild(tableElem);
 
+let cityForm1 = document.getElementById('cityForm');
+
 let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm',];
 
 function getNumber(min, max) {
@@ -117,10 +119,35 @@ function footer(){
 }
 
 
+function handleSubmit(event){
+  event.preventDefault();
+  console.log('HELLLLLLLO');
+
+  let cityName = event.target.name.value;
+  let cityMin = +event.target.min.value;
+  let cityMax = +event.target.max.value;
+  let cityAvg = +event.target.avg.value;
+
+  let addCity = new CityInfo(cityName, cityMin, cityMax, cityAvg, []);
+
+  cityForm1.reset();
+  document.querySelector('tr:last-of-type').remove();
+  addCity.render();
+  footer();
+}
+
+
+function display(){
+  for(let i=0; i < allCityInfo.length; i++ ){
+    allCityInfo[i].render();
+  }
+}
+
+
+
+
 header();
-seattle.render();
-tokyo.render();
-paris.render();
-dubai.render();
-lima.render();
-footer();
+display();
+document.getElementById(footer());
+cityForm1.addEventListener('submit',handleSubmit);
+
