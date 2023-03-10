@@ -27,7 +27,7 @@ header{
 h1{
   font-size: xxx-large;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Tilt Warp', cursive;
 }
 header img{
   flex-direction: row;
@@ -100,7 +100,7 @@ header img{
 .sold-p{
   text-align: center;
   font-size: x-large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Rubik Iso', cursive;
   color: olivedrab;
   background-color: black;
 }
